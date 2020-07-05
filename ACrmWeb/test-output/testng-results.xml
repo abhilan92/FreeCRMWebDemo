@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="143628" started-at="2020-07-05T13:20:44Z" finished-at="2020-07-05T13:23:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="143628" started-at="2020-07-05T13:20:44Z" finished-at="2020-07-05T13:23:08Z">
+      <class name="com.crm.testcases.ContactPageTest">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.crm.testcases.ContactPageTest@41eaa2]" name="browserSetup" is-config="true" duration-ms="10581" started-at="2020-07-05T09:20:46Z" finished-at="2020-07-05T09:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String)[pri:0, instance:com.crm.testcases.ContactPageTest@41eaa2]" name="validateCreateNewContact" duration-ms="28200" started-at="2020-07-05T09:20:56Z" data-provider="gCRMTestData" finished-at="2020-07-05T09:21:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method status="PASS" signature="bClose()[pri:0, instance:com.crm.testcases.ContactPageTest@41eaa2]" name="bClose" is-config="true" duration-ms="9424" started-at="2020-07-05T09:21:24Z" finished-at="2020-07-05T09:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bClose -->
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.crm.testcases.ContactPageTest@41eaa2]" name="browserSetup" is-config="true" duration-ms="9192" started-at="2020-07-05T09:21:34Z" finished-at="2020-07-05T09:21:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String)[pri:0, instance:com.crm.testcases.ContactPageTest@41eaa2]" name="validateCreateNewContact" duration-ms="29749" started-at="2020-07-05T09:21:43Z" data-provider="gCRMTestData" finished-at="2020-07-05T09:22:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cris]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method status="PASS" signature="bClose()[pri:0, instance:com.crm.testcases.ContactPageTest@41eaa2]" name="bClose" is-config="true" duration-ms="9487" started-at="2020-07-05T09:22:13Z" finished-at="2020-07-05T09:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bClose -->
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.crm.testcases.ContactPageTest@41eaa2]" name="browserSetup" is-config="true" duration-ms="8984" started-at="2020-07-05T09:22:22Z" finished-at="2020-07-05T09:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String)[pri:0, instance:com.crm.testcases.ContactPageTest@41eaa2]" name="validateCreateNewContact" duration-ms="29125" started-at="2020-07-05T09:22:31Z" data-provider="gCRMTestData" finished-at="2020-07-05T09:23:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mukta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method status="PASS" signature="bClose()[pri:0, instance:com.crm.testcases.ContactPageTest@41eaa2]" name="bClose" is-config="true" duration-ms="7373" started-at="2020-07-05T09:23:00Z" finished-at="2020-07-05T09:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bClose -->
+      </class> <!-- com.crm.testcases.ContactPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

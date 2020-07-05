@@ -1,0 +1,15 @@
+com\crm\pages\ContactPage.class
+com\crm\util\EmailAttachs.class
+com\crm\pages\SignUpPage.class
+com\crm\util\Listeners.class
+com\crm\util\ExtentRepList.class
+com\crm\pages\LoginPage.class
+com\crm\util\TestUtil.class
+com\crm\util\Screenshots.class
+com\crm\util\WebEventList.class
+com\crm\pages\CompanyPage.class
+com\crm\testdata\DataProvid.class
+com\crm\pages\HomePage.class
+com\crm\util\ExcelFile.class
+com\crm\pages\CalenderPage.class
+com\crm\base\BaseTest.class

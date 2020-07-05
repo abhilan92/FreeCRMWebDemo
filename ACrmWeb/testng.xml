@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CRM Web">
+
+  
+	<listeners>
+		<listener class-name="com.crm.util.ExtentRepList" />
+		<listener class-name="com.crm.util.Listeners" />
+	</listeners>
+	
+    <test name="CRM TestCases">
+    <classes>
+      <class name="com.crm.testcases.HomePageTest"/>
+      <class name="com.crm.testcases.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

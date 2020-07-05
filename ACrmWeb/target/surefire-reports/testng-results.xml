@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CRM Web" duration-ms="72187" started-at="2020-06-28T19:48:09Z" finished-at="2020-06-28T19:49:21Z">
+    <groups>
+    </groups>
+    <test name="CRM TestCases" duration-ms="72187" started-at="2020-06-28T19:48:09Z" finished-at="2020-06-28T19:49:21Z">
+      <class name="com.crm.testcases.HomePageTest">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.crm.testcases.HomePageTest@f67b76]" name="browserSetup" is-config="true" duration-ms="9405" started-at="2020-06-28T15:48:09Z" finished-at="2020-06-28T15:48:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.crm.testcases.HomePageTest@f67b76]" name="verifyHomePageTitle" duration-ms="9821" started-at="2020-06-28T15:48:18Z" finished-at="2020-06-28T15:48:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="bClose()[pri:0, instance:com.crm.testcases.HomePageTest@f67b76]" name="bClose" is-config="true" duration-ms="9320" started-at="2020-06-28T15:48:28Z" finished-at="2020-06-28T15:48:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bClose -->
+      </class> <!-- com.crm.testcases.HomePageTest -->
+      <class name="com.crm.testcases.LoginPageTest">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.crm.testcases.LoginPageTest@13f5a29]" name="browserSetup" is-config="true" duration-ms="8601" started-at="2020-06-28T15:48:37Z" finished-at="2020-06-28T15:48:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.testcases.LoginPageTest@13f5a29]" name="loginPageTitleTest" duration-ms="18" started-at="2020-06-28T15:48:46Z" finished-at="2020-06-28T15:48:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="bClose()[pri:0, instance:com.crm.testcases.LoginPageTest@13f5a29]" name="bClose" is-config="true" duration-ms="9133" started-at="2020-06-28T15:48:46Z" finished-at="2020-06-28T15:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bClose -->
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.crm.testcases.LoginPageTest@13f5a29]" name="browserSetup" is-config="true" duration-ms="9381" started-at="2020-06-28T15:48:55Z" finished-at="2020-06-28T15:49:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.crm.testcases.LoginPageTest@13f5a29]" name="loginTest" duration-ms="7369" started-at="2020-06-28T15:49:04Z" finished-at="2020-06-28T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="bClose()[pri:0, instance:com.crm.testcases.LoginPageTest@13f5a29]" name="bClose" is-config="true" duration-ms="9099" started-at="2020-06-28T15:49:12Z" finished-at="2020-06-28T15:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bClose -->
+      </class> <!-- com.crm.testcases.LoginPageTest -->
+    </test> <!-- CRM TestCases -->
+  </suite> <!-- CRM Web -->
+</testng-results>
