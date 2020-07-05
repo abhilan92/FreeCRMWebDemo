@@ -24,6 +24,10 @@ public class HomePage extends BaseTest {
 	@FindBy(xpath="//span[contains(text(), 'Companies')]")
 	WebElement compBtn;
 	
+	//Document Tab
+	@FindBy(xpath="//span[contains(text(),'Documents')]")
+	WebElement docBtn;
+	
 	public HomePage(){
 		PageFactory.initElements(driver, this);
 	}
@@ -44,6 +48,12 @@ public class HomePage extends BaseTest {
 	public CompanyPage clickonComp(){
 		compBtn.click();
 		return new CompanyPage();
+	}
+	
+	
+	public DocumentPage clickOnDocs(){
+		docBtn.click();
+		return new DocumentPage();
 	}
 	
 	

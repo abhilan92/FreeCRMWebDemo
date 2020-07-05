@@ -46,10 +46,6 @@ public class HomePageTest extends BaseTest {
 		
 		contpag = hompag.clickonContact();
 
-		//String filePath = System.getProperty("user.home")+"/Downloads/Code.txt";
-
-		//com.crm.util.EmailAttachs.sendAttachEmail(filePath);
-
 		log.info("Driver is Closed");
 
 	}
