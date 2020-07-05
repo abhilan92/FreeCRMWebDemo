@@ -8,3 +8,6 @@
 2020-07-05 10:32:14,282 [main] INFO HomePageTest - Driver is initialized
 2020-07-05 10:32:14,347 [main] INFO HomePageTest - Navigated to Home page
 2020-07-05 10:32:21,278 [main] INFO HomePageTest - Driver is Closed
+2020-07-05 12:06:46,476 [main] INFO HomePageTest - Driver is initialized
+2020-07-05 12:06:46,513 [main] INFO HomePageTest - Navigated to Home page
+2020-07-05 12:06:52,026 [main] INFO HomePageTest - Driver is Closed

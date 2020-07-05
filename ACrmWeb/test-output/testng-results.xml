@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19856" started-at="2020-07-05T14:32:07Z" finished-at="2020-07-05T14:32:26Z">
+  <suite name="Default suite" duration-ms="16686" started-at="2020-07-05T16:06:40Z" finished-at="2020-07-05T16:06:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19856" started-at="2020-07-05T14:32:07Z" finished-at="2020-07-05T14:32:26Z">
+    <test name="Default test" duration-ms="16686" started-at="2020-07-05T16:06:40Z" finished-at="2020-07-05T16:06:57Z">
       <class name="com.crm.testcases.HomePageTest">
-        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.crm.testcases.HomePageTest@14ba872]" name="browserSetup" is-config="true" duration-ms="7005" started-at="2020-07-05T10:32:07Z" finished-at="2020-07-05T10:32:14Z">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.crm.testcases.HomePageTest@14ba872]" name="browserSetup" is-config="true" duration-ms="5419" started-at="2020-07-05T12:06:41Z" finished-at="2020-07-05T12:06:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.crm.testcases.HomePageTest@14ba872]" name="verifyHomePageTitle" duration-ms="7101" started-at="2020-07-05T10:32:14Z" finished-at="2020-07-05T10:32:21Z">
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.crm.testcases.HomePageTest@14ba872]" name="verifyHomePageTitle" duration-ms="5601" started-at="2020-07-05T12:06:46Z" finished-at="2020-07-05T12:06:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitle -->
-        <test-method status="PASS" signature="bClose()[pri:0, instance:com.crm.testcases.HomePageTest@14ba872]" name="bClose" is-config="true" duration-ms="5696" started-at="2020-07-05T10:32:21Z" finished-at="2020-07-05T10:32:26Z">
+        <test-method status="PASS" signature="bClose()[pri:0, instance:com.crm.testcases.HomePageTest@14ba872]" name="bClose" is-config="true" duration-ms="5638" started-at="2020-07-05T12:06:52Z" finished-at="2020-07-05T12:06:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bClose -->

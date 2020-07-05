@@ -21,7 +21,7 @@ public class LoginPageTest extends BaseTest {
 	public HomePage hompag;
 
 
-	@Test(priority=1)
+	@Test(priority=1, enabled=false)
 	public void loginPageTitleTest() throws IOException{
 		logpag = new LoginPage();
 		String logi =logpag.validateLoginPageTitle();
@@ -34,7 +34,7 @@ public class LoginPageTest extends BaseTest {
 		hompag = logpag.login(TestUtil.getProp("username").toString() , TestUtil.getProp("password").toString());
 
 		String chek= driver.findElement(By.xpath("//span[@class='user-display']")).getText();
-		Assert.assertEquals(chek, "Abhi Lan", "Login Failed");
+		Assert.assertEquals(chek, "Abhi Lanss", "Login Failed");
 		
 	}
 

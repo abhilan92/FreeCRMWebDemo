@@ -62,7 +62,7 @@ public class EmailAttachs {
         	
             email.addTo("abhi.abhib5@gmail.com");
             
-            //email.addTo("abhilan92@gmail.com");
+            //email.addTo("abhilan1792@gmail.com");
         } catch (EmailException e) {
             e.printStackTrace();
         }

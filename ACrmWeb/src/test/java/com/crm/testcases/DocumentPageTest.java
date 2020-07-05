@@ -1,5 +1,6 @@
 package com.crm.testcases;
 
+import java.io.File;
 import java.io.IOException;
 
 import org.testng.annotations.Test;
@@ -28,6 +29,7 @@ public class DocumentPageTest extends BaseTest {
 		Thread.sleep(2000);
 		docuPage.onExpt();
 		Thread.sleep(2000);
+		
 		
 		String downFile ="export-contact-2020-07-05T140845.xlsx";
 		
