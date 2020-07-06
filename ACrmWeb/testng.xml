@@ -9,10 +9,12 @@
 	</listeners>
 	
     <test name="CRM TestCases">
+    <parameter name="browser" value="chrome" />
     <classes>
       <class name="com.crm.testcases.HomePageTest"/>
       <class name="com.crm.testcases.LoginPageTest"/>
       <class name="com.crm.testcases.DocumentPageTest"/>
+       <!--  <class name="com.crm.testcases.DocumentPageTest" /> --> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -10,8 +10,8 @@ package com.crm.base;
 //https://ca.cogmento.com/index.html
 //http://automationpractice.com/index.php
 //https://opensource-demo.orangehrmlive.com/
-
-
+//http://the-internet.herokuapp.com/
+//https://admin-demo.nopcommerce.com/Admin
 
 
 
@@ -24,8 +24,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+
 import com.crm.util.TestUtil;
 import com.crm.util.WebEventList;
 
@@ -37,7 +41,7 @@ public class BaseTest {
 	public  static EventFiringWebDriver e_driver;
 	public static WebEventList eventListener;
 	
-	@BeforeMethod
+	@BeforeClass
 	public static void browserSetup() throws IOException{
 		
 		if(TestUtil.getProp("browserName").toString().equalsIgnoreCase("chrome")){
@@ -75,11 +79,32 @@ public class BaseTest {
 		
 	}
 	
-	@AfterMethod
+	@AfterClass
 	public void bClose() throws InterruptedException{
 		Thread.sleep(5000);
 		driver.quit();
 	}
+	
+	
+	
+	
+	
+//	@Parameters("browser")
+//	@BeforeMethod
+//	public static void browserSetup1(@Optional("firefox") String br) throws IOException{
+//		
+//		if (br.equalsIgnoreCase("chrome")) {
+//			WebDriverManager.chromedriver().setup();
+//			driver = new ChromeDriver();
+//		} else if (br.equalsIgnoreCase("firefox")) {
+//			WebDriverManager.chromedriver().setup();
+//			driver = new ChromeDriver();
+//		}
+//		
+//	}
+	
+	
+	
 	
 
 }
